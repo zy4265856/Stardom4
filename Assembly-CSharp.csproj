@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{C0736E93-4430-C3D4-E5D8-9C86C99F710C}</ProjectGuid>
+	<ProjectGuid>{2E1EA81E-D19B-4922-D3DB-86C0CAD867D2}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,9 +47,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Data\ExternData.cs" />
-     <Compile Include="Assets\Scripts\Data\Role.cs" />
-     <Compile Include="Assets\Scripts\Data\RoleData.cs" />
-     <Compile Include="Assets\Scripts\Data\RoleRelation.cs" />
+     <Compile Include="Assets\Scripts\Data\Item\Item.cs" />
+     <Compile Include="Assets\Scripts\Data\Role\Role.cs" />
+     <Compile Include="Assets\Scripts\Data\Role\RoleData.cs" />
+     <Compile Include="Assets\Scripts\Data\Role\RoleRelation.cs" />
      <Compile Include="Assets\Scripts\Enums\CompanyEnum.cs" />
      <Compile Include="Assets\Scripts\Enums\RoleLocationEnum.cs" />
  <Reference Include="UnityEngine.UI">
@@ -58,9 +59,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{FBFFCC65-2005-B23C-B93A-8255CA67D56E}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{C5F1EEB3-C33C-848C-12AA-6F4A4BEAC1A3}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{021C43A9-8A32-D570-5617-22770362828B}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{97E94558-256A-5602-EE91-0B0D2407EDE6}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

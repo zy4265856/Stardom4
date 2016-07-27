@@ -9,13 +9,13 @@
 //------------------------------------------------------------------------------
 using System;
 
-public class Role
+public class Item
 {
-	public Role ()
+	public Item ()
 	{
-
 	}
 
 	public int ID;
+
 }
 
