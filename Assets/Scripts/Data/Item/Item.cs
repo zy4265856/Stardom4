@@ -16,6 +16,35 @@ public class Item
 	}
 
 	public int ID;
+    public int number;//数量
+    private bool canUse;//是否可以使用
+    private bool isContinues;//是否持有即生效
+
+    public bool CanUse
+    {
+        get
+        {
+            return canUse;
+        }
+    }
+
+    public bool IsContinues
+    {
+        get
+        {
+            return isContinues;
+        }
+    }
+
+    public int property1;//属性1
+    public int property2;//属性2
+    public int property3;//属性3
+    public int property4;//属性4
+
+    public int property1_num;//属性1数值
+    public int property2_num;//属性2数值
+    public int property3_num;//属性3数值
+    public int property4_num;//属性4数值
 
 }
 

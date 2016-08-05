@@ -12,5 +12,6 @@ public static class ExternData
 {
 	public static int RoleRelationData1 = 60;
 	public static int RoleRelationData2 = 10;
+    public static double TrainingFixData = 0.8;
 }
 
