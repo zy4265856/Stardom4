@@ -51,6 +51,8 @@
      <Compile Include="Assets\Scripts\Data\Role\Role.cs" />
      <Compile Include="Assets\Scripts\Data\Role\RoleData.cs" />
      <Compile Include="Assets\Scripts\Data\Role\RoleRelation.cs" />
+     <Compile Include="Assets\Scripts\Data\Schedule\Action.cs" />
+     <Compile Include="Assets\Scripts\Data\Schedule\Training.cs" />
      <Compile Include="Assets\Scripts\Enums\CompanyEnum.cs" />
      <Compile Include="Assets\Scripts\Enums\RoleLocationEnum.cs" />
  <Reference Include="UnityEngine.UI">
