@@ -5,6 +5,8 @@ Project("{42991BEC-095E-9ACD-7E1A-F05792618859}") = "Stardom4", "Assembly-CSharp
 EndProject
 Project("{42991BEC-095E-9ACD-7E1A-F05792618859}") = "Stardom4", "Assembly-CSharp-vs.csproj", "{2E1EA81E-D19B-4922-D3DB-86C0CAD867D2}"
 EndProject
+Project("{42991BEC-095E-9ACD-7E1A-F05792618859}") = "Stardom4", "Assembly-CSharp-Editor-vs.csproj", "{E3BFEAFB-8CCB-8EB2-2CC3-C16D8F0BC141}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{2E1EA81E-D19B-4922-D3DB-86C0CAD867D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E1EA81E-D19B-4922-D3DB-86C0CAD867D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E1EA81E-D19B-4922-D3DB-86C0CAD867D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3BFEAFB-8CCB-8EB2-2CC3-C16D8F0BC141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3BFEAFB-8CCB-8EB2-2CC3-C16D8F0BC141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3BFEAFB-8CCB-8EB2-2CC3-C16D8F0BC141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3BFEAFB-8CCB-8EB2-2CC3-C16D8F0BC141}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-					GlobalSection(MonoDevelopProperties) = preSolution
+								GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
